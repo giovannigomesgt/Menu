@@ -16,11 +16,13 @@ import {
   MatSlideToggleModule, MatSnackBarModule, MatSortModule, MatStepperModule, MatTableModule,
   MatTabsModule, MatToolbarModule, MatTooltipModule
 } from '@angular/material';
+import { TelaComponent } from './tela/tela.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenudemoComponent
+    MenudemoComponent,
+    TelaComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule, FormsModule, MatButtonModule, MatCheckboxModule,
